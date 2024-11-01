@@ -11,7 +11,7 @@ const journalSchema = new mongoose.Schema({
     content:{
         type: String,
     },
-    publication_date{
+    publication_date: {
         type: Date,
     },
     author :{
@@ -20,6 +20,19 @@ const journalSchema = new mongoose.Schema({
     },
     citations : {
         type: Number,
+    },
+    journal_name:{
+        type: String,
+    },
+    volume : {
+        type : String,
+    },
+    issue : {
+        type : String,
+
+    },
+    pages : {
+        type : String,
     }
 
     
